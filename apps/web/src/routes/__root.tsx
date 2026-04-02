@@ -13,10 +13,25 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title: "Kaizen Boards — Handcrafted Exotic Hardwood Cutting Boards",
+      },
+      {
+        name: "description",
+        content:
+          "Each Kaizen board is handcrafted from the world's finest exotic hardwoods — maple, walnut, purpleheart, bloodwood, and wenge — into functional works of art for your kitchen.",
       },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
